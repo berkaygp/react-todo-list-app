@@ -6,15 +6,12 @@ const TaskList = (props) => {
   
     return (
         <div className="task-list">
-          <Task 
-            title={props.ourTasks[0].title}
-          />
-          <Task 
-            title={props.ourTasks[1].title}
-          />
-          <Task 
-            title={props.ourTasks[2].title}
-          />
+          {props.ourTasks.map((task) => (
+            <Task 
+              key={task.id}
+              title={task.title}
+            />
+          ))}
         </div>
       
     );
