@@ -29,6 +29,13 @@ const App = () => {
     });
   };
 
+  const deleteTaskHandler = (taskId) => {
+    setTasks(prevTasks => {
+      const updatedTasks = prevTasks.filter(task => task.id !== taskId);
+      return updatedTasks;
+    });
+  };
+
   const saveTaskDataHandler = (enteredTaskData) => {
     const taskData = {
       ...enteredTaskData,
@@ -41,7 +48,7 @@ const App = () => {
     <div className="app">
       <Header />
       <SubmitForm onSaveTaskData={saveTaskDataHandler} />
-      <TaskList ourTasks={tasks} />
+      <TaskList ourTasks={tasks} onDeleteTask={deleteTaskHandler} />
     </div>
   );
 }
