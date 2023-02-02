@@ -12,7 +12,7 @@ const Task = (props) => {
             <div className='left'>
                 <h3>{props.title}</h3>
             </div>
-            <button onClick={deleteHandler} >Delete</button>
+            <button className='task__delete-button' onClick={deleteHandler} >Delete</button>
         </div>
     );
 }

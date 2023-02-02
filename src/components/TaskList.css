@@ -1,7 +1,7 @@
 .task-list {
     padding: 1rem;
-    margin: 2rem auto;
-    width: 50rem;
-    max-width: 95%;
-    
+    margin: 1rem auto;
+    width: 95%;
+    max-width: 36rem;
+    text-align: center;
   }

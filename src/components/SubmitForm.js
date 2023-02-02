@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import './SubmitForm.css';
+
 const SubmitForm = (props) => {
     const [enteredTask, setEnteredTask] = useState('');
     const [isValid, setIsValid] = useState(true);
@@ -29,12 +31,17 @@ const SubmitForm = (props) => {
     return (
         <form onSubmit={submitHandler}>
             <input
+                className="submit-form__bar"
                 style={{ borderColor: !isValid ? 'red' : 'black' }}
                 type="text" placeholder="write sth"
                 value={enteredTask}
                 onChange={changeHandler}
             />
-            <input type="submit" value="add" />
+            <input 
+                className="submit-form__add-button"
+                type="submit" 
+                value="Add" 
+            />
         </form>
     );
 }

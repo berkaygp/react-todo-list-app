@@ -1,6 +1,10 @@
 .app {
+    font-size: 1.5em;
+    color: #fff;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    vertical-align: auto;
+    background-color: #374151;
 }

@@ -1,10 +1,25 @@
 .task {
-    display: list-item;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    width: 35rem;
+    height: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(5, 3, 34);
+    font-size: 1rem;
 }
 
 .left {
     display: block;
 }
 
-
+.task__delete-button{
+    background-color: transparent;
+    border-style: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(194, 0, 0);
+    cursor: pointer;
+}
