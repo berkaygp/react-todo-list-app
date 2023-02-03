@@ -8,11 +8,7 @@
     padding: 1rem;
     margin-top: 1rem;
     background-color: rgb(5, 3, 34);
-    font-size: 1rem;
-}
-
-.left {
-    display: block;
+    font-size: 1.2rem;
 }
 
 .task__delete-button{
