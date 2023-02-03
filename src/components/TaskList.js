@@ -20,6 +20,7 @@ const TaskList = (props) => {
 
   return (
     <div className="task-list">
+      <h3>Tasks</h3>
       {tasksContent}
     </div>
 
