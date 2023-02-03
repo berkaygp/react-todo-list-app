@@ -18,3 +18,22 @@
     cursor: pointer;
     color: rgb(223, 253, 247);
 }
+
+.submit-form__datepicker {
+    width: 1rem;
+    height: 1.5rem;
+    padding: 0.6rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0.2rem;
+    background-color: #374151;
+    border: none;
+}
+
+.submit-form__datepicker::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    filter: invert(1);
+}
+
+.submit-form__datepicker::-webkit-calendar-picker-indicator:hover {
+    background-color: #2bff00; /* opposite of this color */
+  }

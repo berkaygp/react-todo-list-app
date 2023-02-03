@@ -8,15 +8,18 @@ import './App.css';
 const DUMMY_TASKS = [
   {
     id: 't1',
-    title: 'task 1'
+    title: 'task 1',
+    date: new Date(2023, 2, 3)
   },
   {
     id: 't2',
-    title: 'task 2'
+    title: 'task 2',
+    date: new Date(2023, 2, 4)
   },
   {
     id: 't3',
-    title: 'task 3'
+    title: 'task 3',
+    date: new Date(2023, 2, 5)
   },
 ];
 
