@@ -50,14 +50,14 @@ const SubmitForm = (props) => {
                 className="submit-form__bar"
                 style={{ borderColor: !isValid ? 'red' : 'black' }}
                 type="text" 
-                placeholder="write sth"
+                placeholder="Write a Task..."
                 value={enteredTask}
                 onChange={changeHandler}
             />
             <input
                 className="submit-form__add-button"
                 type="submit"
-                value="Add"
+                value="Add Task"
             />
         </form>
     );
