@@ -1,7 +1,15 @@
 .task-list {
     padding: 1rem;
+    padding-top: 2rem;
     margin: 1rem auto;
     width: 95%;
-    max-width: 36rem;
+    max-width: 44rem;
     text-align: center;
+  }
+
+  .task-list>h3 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-right: 40rem;
+    color: gray;
   }

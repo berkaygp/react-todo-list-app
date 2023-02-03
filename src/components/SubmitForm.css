@@ -1,22 +1,31 @@
 .submit-form__bar {
     background-color: rgb(25, 38, 63);
-    width: 30rem;
+    width: 31rem;
     height: 1rem;
     font-size: 1.2rem;
     margin-top: 1.5rem;
+    margin-left: 0.2rem;
     padding: 0.8rem;
-    color: rgb(114, 113, 113);
-    border-radius: 0.4em;
+    color: rgb(175, 172, 172);
+    border-color: black;
+    border-radius: 1.5rem 0 1.5rem 0;
 }
 
 .submit-form__add-button {
-    background-color: #374151;
-    border-style: none;
-    font-size: 1.6rem;
+    background-color: transparent;
+    border: none;
+    height: 2.7rem;
+    font-size: 1.4rem;
     font-weight: 600;
-    margin-left: 1rem;
     cursor: pointer;
+    padding: 1rem;
+    padding-top: 0.3rem;
     color: rgb(223, 253, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #b90b0b, #d804d8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
 }
 
 .submit-form__datepicker {
@@ -24,7 +33,6 @@
     height: 1.5rem;
     padding: 0.6rem;
     margin-right: 0.2rem;
-    margin-bottom: 0.2rem;
     background-color: #374151;
     border-color: black;
     border-radius: 30%;

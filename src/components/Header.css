@@ -1,7 +1,9 @@
 .header {
-    font-weight: normal;
+    margin-right: 25rem;
+    padding-top: 10%;
 }
 
 .header__header{
     color: gray;
+    font-weight: 300;
 }
