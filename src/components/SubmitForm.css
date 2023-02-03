@@ -26,7 +26,8 @@
     margin-right: 0.2rem;
     margin-bottom: 0.2rem;
     background-color: #374151;
-    border: none;
+    border-color: black;
+    border-radius: 30%;
 }
 
 .submit-form__datepicker::-webkit-calendar-picker-indicator {

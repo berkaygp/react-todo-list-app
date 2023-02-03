@@ -26,7 +26,7 @@ const SubmitForm = (props) => {
             date: new Date(enteredDate)
         };
 
-        if (enteredTask.trim().length === 0) {
+        if (enteredTask.trim().length === 0 || enteredDate.trim().length === 0) {
             setIsValid(false);
             return;
         }
@@ -39,6 +39,7 @@ const SubmitForm = (props) => {
         <form onSubmit={submitHandler}>
             <input 
                 className="submit-form__datepicker" 
+                style={{ borderColor: !isValid ? 'red' : 'black' }}
                 type='date' 
                 min='2023-01-01' 
                 max='2027-12-31' 
