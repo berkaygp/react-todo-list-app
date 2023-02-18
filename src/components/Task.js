@@ -11,7 +11,9 @@ const Task = (props) => {
     }
 
     const completeButtonHandler = () => {
-        setIsComplete(!isComplete);
+        setIsComplete(prevCondition => {
+            return !prevCondition;
+        });
     };
 
     return (
